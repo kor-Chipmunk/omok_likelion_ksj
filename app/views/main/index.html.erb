@@ -1,0 +1,489 @@
+<div class="container-fluid">
+  <div class="row">
+    <!-- go-board -->
+    <div style="margin-top: 5px;" class="col s12 center">
+      <div class="omok_table">
+        <% for i in 0...19 %>
+          <div class="go-row">
+            <% for j in 0...19 %>
+              <div class="go-cell" data-occupied="false"
+              data-x="<%= j %>" data-y="<%= i %>"></div>
+            <% end %>
+          </div>
+          <% if i < 18 %>
+            <br>
+          <% end %>
+        <% end %>
+      </div>
+      <br>
+      턴수 : <span class="turnNum">0</span>&nbsp;&nbsp;
+      차례 : <span class="turnWho">흑</span>&nbsp;&nbsp;
+      <button onclick="showback();">무르기</button>
+    </div>
+  </div>
+</div>
+<div id="dialog-confirm" style="display: none;" title="무르기">
+  <p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>한 수 무르시겠습니까?</p>
+</div>
+
+<!--
+  U should modify below script only
+-->
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script>
+
+var FLAG_WAIT = 0;
+var FLAG_START = 1;
+var FLAG_STOP = 2;
+
+var turn = 0;
+var game_flag = FLAG_START;
+
+var OMOK_ROWNUM = 19;
+
+var DIRECTION_NORTH = 1;
+var DIRECTION_NORTHEAST = 2;
+var DIRECTION_EAST = 3;
+var DIRECTION_SOUTHEAST = 4;
+var DIRECTION_SOUTH = 5;
+var DIRECTION_SOUTHWEST = 6;
+var DIRECTION_WEST = 7;
+var DIRECTION_NORTHWEST = 8;
+
+var RESULT_NONE = 1;
+var RESULT_EMPTY = 2;
+
+var TYPE_WHITE = 1;
+var TYPE_BLACK = 2;
+var TYPE_EMPTY = 3;
+
+function upTurn() {
+  if (!isomokFull()) {
+    turn++;
+    $('.turnNum').text(turn);
+  
+    if (turn % 2 == 0)
+      $('.turnWho').text('흑')
+    else
+      $('.turnWho').text('백');
+  }
+  else {
+    // 무승부 판정
+    alert("무승부 입니다!");
+  }
+}
+
+function downTurn() {
+  if (!(turn === 0)) {
+    turn--;
+    $('button[data-turn=' + turn + ']').parent().html('')
+    .data('occupied', false);
+  
+    $('.turnNum').text(turn);
+  
+    if (turn % 2 == 0)
+      $('.turnWho').text('흑')
+    else
+      $('.turnWho').text('백');
+  }
+  else {
+    // 무승부 판정
+    alert("무르기 할 돌이 없습니다!");
+  }
+}
+
+function isomokFull() {
+  if (turn == OMOK_ROWNUM * OMOK_ROWNUM)
+    return true;
+  else
+    return false;
+}
+
+function getStoneAtPosition(x, y) {
+  if (isStoneAtPosition(x, y, TYPE_BLACK) ||
+  isStoneAtPosition(x, y, TYPE_WHITE))
+    return $('.go-cell[data-x=' + x + '][data-y=' + y + '] > button');
+  else
+    return TYPE_EMPTY;
+}
+
+// 같은 타입의 오목이 해당 x, y 좌표에 있는지 체크한다.
+function isStoneAtPosition(x, y, type) {
+  var $object = null;
+  
+  $object = $('.go-cell[data-x=' + x + '][data-y=' + y + '] > button');
+  
+  if ($object.length === 0) {
+    return false;
+  }
+  
+  if (type === TYPE_BLACK) {
+    if ($object.data('turn') % 2 === 0) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+  else if (type === TYPE_WHITE) {
+    if ($object.data('turn') % 2 === 1) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+}
+
+function getStoneAtDirection(omokStone, direction) {
+  var x, y, type;
+  x = $(omokStone).parent().data('x');
+  y = $(omokStone).parent().data('y');
+  
+  if ( $(omokStone).data('turn') % 2 === 0 )
+    type = TYPE_BLACK;
+  else
+    type = TYPE_WHITE;
+    
+    switch (direction) {
+    case DIRECTION_NORTH:
+      // 맨 윗 줄이면, 막혀있다.
+      if (y === 0)
+        return RESULT_NONE;
+      
+      if (isStoneAtPosition(x, y-1, type))
+        return getStoneAtPosition(x, y-1);
+      else
+        return RESULT_EMPTY;
+      break;
+    case DIRECTION_NORTHEAST:
+      // 18, 0 이면, 막혀있다.
+      if (x === OMOK_ROWNUM - 1 && y === 0)
+        return RESULT_NONE;
+      
+      if (isStoneAtPosition(x+1, y-1, type))
+        return getStoneAtPosition(x+1, y-1);
+      else
+        return RESULT_EMPTY;
+      break;
+    case DIRECTION_EAST:
+      // x 가 18이면, 막혀있다.
+      if (x === OMOK_ROWNUM - 1)
+        return RESULT_NONE;
+        
+      if (isStoneAtPosition(x+1, y, type))
+        return getStoneAtPosition(x+1, y);
+      else
+        return RESULT_EMPTY;
+      break;
+    case DIRECTION_SOUTHEAST:
+      // x, y 가 18이면, 막혀있다.
+      if (x === OMOK_ROWNUM - 1 && y === OMOK_ROWNUM - 1)
+        return RESULT_NONE;
+      
+      if (isStoneAtPosition(x+1, y+1, type))
+        return getStoneAtPosition(x+1, y+1);
+      else
+        return RESULT_EMPTY;
+      break;
+    case DIRECTION_SOUTH:
+      // y 가 18이면, 막혀있다.
+      if (y === OMOK_ROWNUM - 1)
+        return RESULT_NONE;
+        
+      if (isStoneAtPosition(x, y+1, type))
+        return getStoneAtPosition(x, y+1);
+      else
+        return RESULT_EMPTY;
+      break;
+    case DIRECTION_SOUTHWEST:
+      // x 가 0, y 가 18이면 막혀있다
+      if (x === 0 && y === OMOK_ROWNUM - 1)
+        return RESULT_NONE;
+      
+      if (isStoneAtPosition(x-1, y+1, type))
+        return getStoneAtPosition(x-1, y+1);
+      else
+        return RESULT_EMPTY;
+      break;
+    case DIRECTION_WEST:
+      // x 가 0 이면 막혀있다.
+      if (x === 0)
+        return RESULT_NONE;
+        
+      if (isStoneAtPosition(x-1, y, type))
+        return getStoneAtPosition(x-1, y);
+      else
+        return RESULT_EMPTY;
+      break;
+    case DIRECTION_NORTHWEST:
+      // 0, 0 이면 막혀있다.
+      if (x === 0 && y === 0)
+        return RESULT_NONE;
+        
+      if (isStoneAtPosition(x-1, y-1, type))
+        return getStoneAtPosition(x-1, y-1);
+      else
+        return RESULT_EMPTY;
+      break;
+  }
+}
+
+function isStoneAtDirection(omokStone, direction) {
+  // 1 : 북, 2 : 북동, 3 : 동, 4 : 남동,
+  // 5 : 남, 6 : 남서, 7 : 서, 8 : 북서
+  
+  // 현재 돌의 x, y 좌표와 타입을 구한다.
+  var x, y, type;
+  x = $(omokStone).data('x');
+  y = $(omokStone).data('y');
+  
+  if ( $(omokStone).data('turn') % 2 === 0 )
+    type = TYPE_BLACK;
+  else
+    type = TYPE_WHITE;
+  
+  switch (direction) {
+    case DIRECTION_NORTH:
+      // 맨 윗 줄이면, 막혀있다.
+      if (y === 0)
+        return RESULT_NONE;
+      
+      if (isStoneAtPosition(x, y-1, type))
+        return RESULT_EXIST;
+      else
+        return RESULT_EMPTY;
+      break;
+    case DIRECTION_NORTHEAST:
+      // 18, 0 이면, 막혀있다.
+      if (x === OMOK_ROWNUM - 1 && y === 0)
+        return RESULT_NONE;
+      
+      if (isStoneAtPosition(x+1, y-1, type))
+        return RESULT_EXIST;
+      else
+        return RESULT_EMPTY;
+      break;
+    case DIRECTION_EAST:
+      // x 가 18이면, 막혀있다.
+      if (x === OMOK_ROWNUM - 1)
+        return RESULT_NONE;
+        
+      if (isStoneAtPosition(x+1, y, type))
+        return RESULT_EXIST;
+      else
+        return RESULT_EMPTY;
+      break;
+    case DIRECTION_SOUTHEAST:
+      // x, y 가 18이면, 막혀있다.
+      if (x === OMOK_ROWNUM - 1 && y === OMOK_ROWNUM - 1)
+        return RESULT_NONE;
+      
+      if (isStoneAtPosition(x+1, y+1, type))
+        return RESULT_EXIST;
+      else
+        return RESULT_EMPTY;
+      break;
+    case DIRECTION_SOUTH:
+      // y 가 18이면, 막혀있다.
+      if (y === OMOK_ROWNUM - 1)
+        return RESULT_NONE;
+        
+      if (isStoneAtPosition(x, y+1, type))
+        return RESULT_EXIST;
+      else
+        return RESULT_EMPTY;
+      break;
+    case DIRECTION_SOUTHWEST:
+      // x 가 0, y 가 18이면 막혀있다
+      if (x === 0 && y === OMOK_ROWNUM - 1)
+        return RESULT_NONE;
+      
+      if (isStoneAtPosition(x-1, y+1, type))
+        return RESULT_EXIST;
+      else
+        return RESULT_EMPTY;
+      break;
+    case DIRECTION_WEST:
+      // x 가 0 이면 막혀있다.
+      if (x === 0)
+        return RESULT_NONE;
+        
+      if (isStoneAtPosition(x-1, y, type))
+        return RESULT_EXIST;
+      else
+        return RESULT_EMPTY;
+      break;
+    case DIRECTION_NORTHWEST:
+      // 0, 0 이면 막혀있다.
+      if (x === 0 && y === 0)
+        return RESULT_NONE;
+        
+      if (isStoneAtPosition(x-1, y-1, type))
+        return RESULT_EXIST;
+      else
+        return RESULT_EMPTY;
+      break;
+  }
+}
+
+function getCountForDirection(omokStone, direction) {
+  var cnt = 0;
+  var i;
+  var tmp_omok = omokStone;
+  
+  for (i = 0; i < 5; i++) {
+    // 현재 돌을 기준으로 임의의 방향에 돌을 가져온다.
+    tmp_omok = getStoneAtDirection(tmp_omok, direction);
+    if (tmp_omok === RESULT_NONE || 
+    tmp_omok === RESULT_EMPTY) {
+      break;
+    }
+    else {
+      cnt++;
+    }
+  }
+  
+  return cnt;
+}
+
+function checkVictory(omokStone) {
+  var i;
+  var turn;
+  
+  for (i = DIRECTION_NORTH; i <= DIRECTION_NORTHWEST; i++) {
+    // 내 근처방향으로 4개만 있으면, 나까지 포함하여 5개가 된다!
+    if (getCountForDirection(omokStone, i) === 4) {
+      /* 승리 */
+      turn = $(omokStone).data('turn');
+      alert("승리!");
+      if (turn % 2 === 0) {
+        /* 흑 승리! */
+        alert("흑이 승리하였습니다!");
+      }
+      else {
+        /* 백 승리! */
+        alert("백이 승리하였습니다!");
+      }
+      
+      gameWait();
+      break;
+    }
+  }
+}
+
+function checkDoubleThree(omokStone) {
+  var i, cnt = 0;
+  
+  for (i = DIRECTION_NORTH; i <= DIRECTION_NORTHWEST; i++) {
+    // 내 근처방향으로 2개만 있으면, 나까지 포함하여 3개가 된다!
+    if (getCountForDirection(omokStone, i) === 2) {
+      cnt++;
+      
+      if (cnt === 2) {
+        // 쌍삼 걸렸다!
+        return true;
+      }
+    }
+  }
+  
+  return false;
+}
+
+function gameStart() {
+  game_flag = FLAG_START;
+}
+
+function gameStop() {
+  game_flag = FLAG_STOP;
+}
+
+function gameWait() {
+  game_flag = FLAG_WAIT;
+}
+
+function isOccupied(go_cell) {
+  return $(go_cell).data('occupied');
+}
+
+$('.go-cell').on('mouseenter', function() {
+  if (game_flag === FLAG_START) {
+    if (!$(this).data('occupied')) {
+      if (turn % 2 === 0) {
+        $(this).html('<button data-turn=' + turn + ' class="semi_black stone"></button>');
+      }
+      else {
+        $(this).html('<button data-turn=' + turn + ' class="semi_white stone"></button>');
+      }
+    }
+  }
+})
+
+$('.go-cell').on('mouseleave', function() {
+  if (game_flag === FLAG_START) {
+    if (!$(this).data('occupied')) {
+      $(this).html('');
+    }
+  }
+})
+
+$('.go-cell').click(function() {
+  if (game_flag === FLAG_START) {
+    if (!isOccupied($(this))) {
+      
+      // 짝수 턴이면, 검은돌
+      // 홀수 턴이면, 흰돌
+      if (turn % 2 == 0)
+        $(this).html('<button data-turn=' + turn + ' class="black stone"></button>');
+      else
+        $(this).html('<button data-turn=' + turn + ' class="white stone"></button>');
+      
+      if (checkDoubleThree($(this).children('button'))) {
+        alert("쌍삼입니다.. 다른 곳을 놓아보세요!");
+        $(this).html('');
+        return false;
+      }
+      
+      $(this).data('occupied', true);
+      
+      checkVictory($(this).children('button'));
+      
+      upTurn();
+    }
+  }
+});
+
+function backturn() {
+  downTurn();
+}
+
+function showback() {
+  $dialog = $( "#dialog-confirm" ).dialog({
+    resizable: false,
+    height:200,
+    modal: true,
+    buttons: {
+      "무르기": function() {
+        backturn();
+        $( this ).dialog( "close" );
+      },
+      Cancel: function() {
+        $( this ).dialog( "close" );
+      }
+    },
+    show: {
+      effect: "bounce",
+      duration: 500
+    },
+    hide: {
+      effect: "explode",
+      duration: 500
+    }
+  });
+  
+  $dialog.dialog("open");
+}
+
+</script>

@@ -1,0 +1,47 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.omok_table {
+  margin: auto;
+  width: 57rem;
+  height: 57rem;
+}
+
+.go-row {
+  float: left;
+}
+
+.go-cell {
+  float: left;
+  height: 3rem;
+  width: 3rem;
+  padding: 0;
+  background-image: image-url("go.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+.stone {
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 100%;
+  border: 2px solid black;
+  margin-top: 0.5rem;
+}
+
+.white {
+  padding: 0;
+  background-image: image-url("omok_white.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+.semi_black {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.semi_white {
+  background-color: rgba(255,255,255,0.5);
+}
