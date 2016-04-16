@@ -351,6 +351,31 @@ function getCountForDirection(omokStone, direction) {
   return cnt;
 }
 
+function getCountForDirectionWithoutOnePoint(omokStone, direction) {
+  var cnt = 0;
+  var i;
+  var tmp_omok = omokStone;
+  
+  for (i = 0; i < 5; i++) {
+    // 현재 돌을 기준으로 임의의 방향에 돌을 가져온다.
+    tmp_omok = getStoneAtDirection(tmp_omok, direction);
+    if (tmp_omok === RESULT_NONE) {
+      break;
+    }
+    else if (tmp_omok === RESULT_EMPTY) {
+      if (i === 0)
+        continue;
+      else
+        break;
+    }
+    else {
+      cnt++;
+    }
+  }
+  
+  return cnt;
+}
+
 function checkVictory(omokStone) {
   var i;
   var turn;
@@ -376,23 +401,48 @@ function checkVictory(omokStone) {
   }
 }
 
+/* 어려워서 폐지합니다..
 function checkDoubleThree(omokStone) {
-  var i, cnt = 0;
+  var i, cnt = 0, cnt2 = 0, cnt3 = 0, cnt4 = 0, cnt5 = 0;
   
   for (i = DIRECTION_NORTH; i <= DIRECTION_NORTHWEST; i++) {
-    // 내 근처방향으로 2개만 있으면, 나까지 포함하여 3개가 된다!
+    // 1. 놓았을 떄, 2개 2개 => 3개 3개
     if (getCountForDirection(omokStone, i) === 2) {
       cnt++;
-      
-      if (cnt === 2) {
-        // 쌍삼 걸렸다!
-        return true;
-      }
+    } // 2. 사각형 안에 놓았을 떄, 1개 1개 1개 1개 => 3개 3개
+    else if (getCountForDirection(omokStone, i) === 1) {
+      cnt2++;
+    }
+    else if (getCountForDirectionWithoutOnePoint(omokStone, i)
+        === 2) {
+      cnt3++;
+    }
+    else if (getCountForDirection(omokStone, i) === 1 ||
+    getCountForDirection(omokStone, i) === 2) {
+      cnt4++;
+    }
+    
+    if (cnt === 2) {
+      // 쌍삼 걸렸다!
+      return true;
+    }
+    if (cnt2 === 4) {
+       return true;
+    }
+    if (cnt3 === 2) {
+       return true;
+    }
+    if (cnt4 === 2) {
+       return true;
+    }
+    if (cnt5 === 4) {
+       return true;
     }
   }
   
   return false;
 }
+*/
 
 function gameStart() {
   game_flag = FLAG_START;
@@ -442,11 +492,13 @@ $('.go-cell').click(function() {
       else
         $(this).html('<button data-turn=' + turn + ' class="white stone">' + (turn) + '</button>');
       
+      /*
       if (checkDoubleThree($(this).children('button'))) {
         alert("쌍삼입니다.. 다른 곳을 놓아보세요!");
         $(this).html('');
         return false;
       }
+      */
       
       $(this).data('occupied', true);
       
