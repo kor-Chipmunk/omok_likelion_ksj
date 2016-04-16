@@ -3843,3 +3843,979 @@ Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 12
 
 Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 13:26:52 +0000
 Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:02:19 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 276ms (Views: 275.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:02:19 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-ce5e1fc3fced08ebdb6f89d3296d5e4884709b793417a5835781f0cb579502c6.css?body=1" for 183.102.145.173 at 2016-04-16 14:02:19 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:02:19 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:02:19 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:02:19 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:02:19 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/go-58ad6a13cf049c2194ae69fb1f0e3ddddd08d96a708b45ddf7655d55fc79f8e6.png" for 183.102.145.173 at 2016-04-16 14:02:20 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:03:25 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-ce5e1fc3fced08ebdb6f89d3296d5e4884709b793417a5835781f0cb579502c6.css?body=1" for 183.102.145.173 at 2016-04-16 14:03:25 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:03:25 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:03:25 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:03:25 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:03:25 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:03:25 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/go-58ad6a13cf049c2194ae69fb1f0e3ddddd08d96a708b45ddf7655d55fc79f8e6.png" for 183.102.145.173 at 2016-04-16 14:03:25 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 110.76.142.179 at 2016-04-16 14:15:38 +0000
+Cannot render console from 110.76.142.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as */*
+  Rendered main/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 55ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:16:08 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 40ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:16:08 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:16:08 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:16:08 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:16:08 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-ce5e1fc3fced08ebdb6f89d3296d5e4884709b793417a5835781f0cb579502c6.css?body=1" for 183.102.145.173 at 2016-04-16 14:16:08 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:16:08 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/go-58ad6a13cf049c2194ae69fb1f0e3ddddd08d96a708b45ddf7655d55fc79f8e6.png" for 183.102.145.173 at 2016-04-16 14:16:08 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 211.49.218.113 at 2016-04-16 14:16:14 +0000
+Cannot render console from 211.49.218.113! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 33ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-ce5e1fc3fced08ebdb6f89d3296d5e4884709b793417a5835781f0cb579502c6.css?body=1" for 211.49.218.113 at 2016-04-16 14:16:15 +0000
+Cannot render console from 211.49.218.113! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 211.49.218.113 at 2016-04-16 14:16:15 +0000
+Cannot render console from 211.49.218.113! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 211.49.218.113 at 2016-04-16 14:16:15 +0000
+Cannot render console from 211.49.218.113! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 211.49.218.113 at 2016-04-16 14:16:15 +0000
+Cannot render console from 211.49.218.113! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 211.49.218.113 at 2016-04-16 14:16:15 +0000
+Cannot render console from 211.49.218.113! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 211.49.218.113 at 2016-04-16 14:16:15 +0000
+Cannot render console from 211.49.218.113! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/go-58ad6a13cf049c2194ae69fb1f0e3ddddd08d96a708b45ddf7655d55fc79f8e6.png" for 211.49.218.113 at 2016-04-16 14:16:19 +0000
+Cannot render console from 211.49.218.113! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/omok_white-1ebdbd65c8751576d45bdd27ae27226dd2a56335d6639d4660c1f16b6c863c64.png" for 211.49.218.113 at 2016-04-16 14:16:23 +0000
+Cannot render console from 211.49.218.113! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:17:06 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:17:06 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:17:06 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:17:06 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:17:06 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-ce5e1fc3fced08ebdb6f89d3296d5e4884709b793417a5835781f0cb579502c6.css?body=1" for 183.102.145.173 at 2016-04-16 14:17:06 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:17:06 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:17:24 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:17:24 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-ce5e1fc3fced08ebdb6f89d3296d5e4884709b793417a5835781f0cb579502c6.css?body=1" for 183.102.145.173 at 2016-04-16 14:17:24 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:17:24 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:17:24 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:17:24 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:17:24 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:18:00 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 36ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-ce5e1fc3fced08ebdb6f89d3296d5e4884709b793417a5835781f0cb579502c6.css?body=1" for 183.102.145.173 at 2016-04-16 14:18:00 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:18:00 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:18:00 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:18:00 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:18:00 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:18:00 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:19:26 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 24ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:19:26 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-ce5e1fc3fced08ebdb6f89d3296d5e4884709b793417a5835781f0cb579502c6.css?body=1" for 183.102.145.173 at 2016-04-16 14:19:26 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:19:26 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:19:26 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:19:26 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:19:26 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:19:39 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 23ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-ce5e1fc3fced08ebdb6f89d3296d5e4884709b793417a5835781f0cb579502c6.css?body=1" for 183.102.145.173 at 2016-04-16 14:19:39 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:19:39 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:19:39 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:19:39 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:19:39 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:19:39 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:19:57 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:19:57 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-ce5e1fc3fced08ebdb6f89d3296d5e4884709b793417a5835781f0cb579502c6.css?body=1" for 183.102.145.173 at 2016-04-16 14:19:57 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:19:57 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:19:57 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:19:57 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:19:57 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:19:59 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-ce5e1fc3fced08ebdb6f89d3296d5e4884709b793417a5835781f0cb579502c6.css?body=1" for 183.102.145.173 at 2016-04-16 14:20:00 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:20:00 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:20:00 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:20:00 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:20:00 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:20:00 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 219.249.227.14 at 2016-04-16 14:20:05 +0000
+Cannot render console from 219.249.227.14! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as */*
+  Rendered main/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:20:39 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 26ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:20:39 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:20:39 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-ce5e1fc3fced08ebdb6f89d3296d5e4884709b793417a5835781f0cb579502c6.css?body=1" for 183.102.145.173 at 2016-04-16 14:20:39 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:20:39 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:20:39 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:20:39 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:20:47 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:20:47 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:20:47 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-ce5e1fc3fced08ebdb6f89d3296d5e4884709b793417a5835781f0cb579502c6.css?body=1" for 183.102.145.173 at 2016-04-16 14:20:47 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:20:47 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:20:47 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:20:47 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:20:53 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 24ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:20:53 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-ce5e1fc3fced08ebdb6f89d3296d5e4884709b793417a5835781f0cb579502c6.css?body=1" for 183.102.145.173 at 2016-04-16 14:20:53 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:20:53 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:20:53 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:20:53 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:20:53 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:21:19 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 74ms (Views: 73.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f0df4731a58716f30ce08473438bbb7d7d3a0de6198af04eb0ab91d4efaf2636.css?body=1" for 183.102.145.173 at 2016-04-16 14:21:19 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:21:19 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:21:19 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:21:19 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:21:19 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:21:19 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/go-58ad6a13cf049c2194ae69fb1f0e3ddddd08d96a708b45ddf7655d55fc79f8e6.png" for 183.102.145.173 at 2016-04-16 14:21:19 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 122.42.147.94 at 2016-04-16 14:22:00 +0000
+Cannot render console from 122.42.147.94! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f0df4731a58716f30ce08473438bbb7d7d3a0de6198af04eb0ab91d4efaf2636.css?body=1" for 122.42.147.94 at 2016-04-16 14:22:00 +0000
+Cannot render console from 122.42.147.94! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 122.42.147.94 at 2016-04-16 14:22:00 +0000
+Cannot render console from 122.42.147.94! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 122.42.147.94 at 2016-04-16 14:22:00 +0000
+Cannot render console from 122.42.147.94! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 122.42.147.94 at 2016-04-16 14:22:00 +0000
+Cannot render console from 122.42.147.94! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 122.42.147.94 at 2016-04-16 14:22:00 +0000
+Cannot render console from 122.42.147.94! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 122.42.147.94 at 2016-04-16 14:22:00 +0000
+Cannot render console from 122.42.147.94! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/go-58ad6a13cf049c2194ae69fb1f0e3ddddd08d96a708b45ddf7655d55fc79f8e6.png" for 122.42.147.94 at 2016-04-16 14:22:01 +0000
+Cannot render console from 122.42.147.94! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/omok_white-1ebdbd65c8751576d45bdd27ae27226dd2a56335d6639d4660c1f16b6c863c64.png" for 122.42.147.94 at 2016-04-16 14:22:04 +0000
+Cannot render console from 122.42.147.94! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 110.76.142.160 at 2016-04-16 14:24:49 +0000
+Cannot render console from 110.76.142.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 211.36.149.188 at 2016-04-16 14:24:54 +0000
+Cannot render console from 211.36.149.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f0df4731a58716f30ce08473438bbb7d7d3a0de6198af04eb0ab91d4efaf2636.css?body=1" for 211.36.149.188 at 2016-04-16 14:24:55 +0000
+Cannot render console from 211.36.149.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 211.36.149.188 at 2016-04-16 14:24:55 +0000
+Cannot render console from 211.36.149.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 211.36.149.188 at 2016-04-16 14:24:55 +0000
+Cannot render console from 211.36.149.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 211.36.149.188 at 2016-04-16 14:24:55 +0000
+Cannot render console from 211.36.149.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 211.36.149.188 at 2016-04-16 14:24:55 +0000
+Cannot render console from 211.36.149.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 211.36.149.188 at 2016-04-16 14:24:56 +0000
+Cannot render console from 211.36.149.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/go-58ad6a13cf049c2194ae69fb1f0e3ddddd08d96a708b45ddf7655d55fc79f8e6.png" for 211.36.149.188 at 2016-04-16 14:24:57 +0000
+Cannot render console from 211.36.149.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 211.36.149.188 at 2016-04-16 14:25:34 +0000
+Cannot render console from 211.36.149.188! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 22ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 182.215.184.162 at 2016-04-16 14:26:48 +0000
+Cannot render console from 182.215.184.162! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f0df4731a58716f30ce08473438bbb7d7d3a0de6198af04eb0ab91d4efaf2636.css?body=1" for 182.215.184.162 at 2016-04-16 14:26:50 +0000
+Cannot render console from 182.215.184.162! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 182.215.184.162 at 2016-04-16 14:26:50 +0000
+Cannot render console from 182.215.184.162! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 182.215.184.162 at 2016-04-16 14:26:50 +0000
+Cannot render console from 182.215.184.162! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 182.215.184.162 at 2016-04-16 14:26:50 +0000
+Cannot render console from 182.215.184.162! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 182.215.184.162 at 2016-04-16 14:26:50 +0000
+Cannot render console from 182.215.184.162! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 182.215.184.162 at 2016-04-16 14:26:50 +0000
+Cannot render console from 182.215.184.162! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/go-58ad6a13cf049c2194ae69fb1f0e3ddddd08d96a708b45ddf7655d55fc79f8e6.png" for 182.215.184.162 at 2016-04-16 14:27:08 +0000
+Cannot render console from 182.215.184.162! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/omok_white-1ebdbd65c8751576d45bdd27ae27226dd2a56335d6639d4660c1f16b6c863c64.png" for 182.215.184.162 at 2016-04-16 14:27:28 +0000
+Cannot render console from 182.215.184.162! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 218.37.223.214 at 2016-04-16 14:28:12 +0000
+Cannot render console from 218.37.223.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f0df4731a58716f30ce08473438bbb7d7d3a0de6198af04eb0ab91d4efaf2636.css?body=1" for 218.37.223.214 at 2016-04-16 14:28:12 +0000
+Cannot render console from 218.37.223.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 218.37.223.214 at 2016-04-16 14:28:12 +0000
+Cannot render console from 218.37.223.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 218.37.223.214 at 2016-04-16 14:28:12 +0000
+Cannot render console from 218.37.223.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 218.37.223.214 at 2016-04-16 14:28:12 +0000
+Cannot render console from 218.37.223.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 218.37.223.214 at 2016-04-16 14:28:13 +0000
+Cannot render console from 218.37.223.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 218.37.223.214 at 2016-04-16 14:28:13 +0000
+Cannot render console from 218.37.223.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/go-58ad6a13cf049c2194ae69fb1f0e3ddddd08d96a708b45ddf7655d55fc79f8e6.png" for 218.37.223.214 at 2016-04-16 14:28:13 +0000
+Cannot render console from 218.37.223.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/omok_white-1ebdbd65c8751576d45bdd27ae27226dd2a56335d6639d4660c1f16b6c863c64.png" for 218.37.223.214 at 2016-04-16 14:28:16 +0000
+Cannot render console from 218.37.223.214! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 182.215.184.162 at 2016-04-16 14:29:17 +0000
+Cannot render console from 182.215.184.162! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f0df4731a58716f30ce08473438bbb7d7d3a0de6198af04eb0ab91d4efaf2636.css?body=1" for 182.215.184.162 at 2016-04-16 14:29:20 +0000
+Cannot render console from 182.215.184.162! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 182.215.184.162 at 2016-04-16 14:29:20 +0000
+Cannot render console from 182.215.184.162! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 182.215.184.162 at 2016-04-16 14:29:20 +0000
+Cannot render console from 182.215.184.162! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 182.215.184.162 at 2016-04-16 14:29:20 +0000
+Cannot render console from 182.215.184.162! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 182.215.184.162 at 2016-04-16 14:29:20 +0000
+Cannot render console from 182.215.184.162! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 182.215.184.162 at 2016-04-16 14:29:20 +0000
+Cannot render console from 182.215.184.162! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/go-58ad6a13cf049c2194ae69fb1f0e3ddddd08d96a708b45ddf7655d55fc79f8e6.png" for 182.215.184.162 at 2016-04-16 14:29:29 +0000
+Cannot render console from 182.215.184.162! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 165.194.5.159 at 2016-04-16 14:30:33 +0000
+Cannot render console from 165.194.5.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f0df4731a58716f30ce08473438bbb7d7d3a0de6198af04eb0ab91d4efaf2636.css?body=1" for 165.194.5.159 at 2016-04-16 14:30:33 +0000
+Cannot render console from 165.194.5.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 165.194.5.159 at 2016-04-16 14:30:33 +0000
+Cannot render console from 165.194.5.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 165.194.5.159 at 2016-04-16 14:30:33 +0000
+Cannot render console from 165.194.5.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 165.194.5.159 at 2016-04-16 14:30:33 +0000
+Cannot render console from 165.194.5.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 165.194.5.159 at 2016-04-16 14:30:33 +0000
+Cannot render console from 165.194.5.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 165.194.5.159 at 2016-04-16 14:30:33 +0000
+Cannot render console from 165.194.5.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/go-58ad6a13cf049c2194ae69fb1f0e3ddddd08d96a708b45ddf7655d55fc79f8e6.png" for 165.194.5.159 at 2016-04-16 14:30:34 +0000
+Cannot render console from 165.194.5.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/omok_white-1ebdbd65c8751576d45bdd27ae27226dd2a56335d6639d4660c1f16b6c863c64.png" for 165.194.5.159 at 2016-04-16 14:30:40 +0000
+Cannot render console from 165.194.5.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 39.7.58.90 at 2016-04-16 14:31:09 +0000
+Cannot render console from 39.7.58.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 24ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f0df4731a58716f30ce08473438bbb7d7d3a0de6198af04eb0ab91d4efaf2636.css?body=1" for 39.7.58.90 at 2016-04-16 14:31:09 +0000
+Cannot render console from 39.7.58.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 39.7.58.90 at 2016-04-16 14:31:09 +0000
+Cannot render console from 39.7.58.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 39.7.58.90 at 2016-04-16 14:31:09 +0000
+Cannot render console from 39.7.58.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 39.7.58.90 at 2016-04-16 14:31:09 +0000
+Cannot render console from 39.7.58.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 39.7.58.90 at 2016-04-16 14:31:09 +0000
+Cannot render console from 39.7.58.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 39.7.58.90 at 2016-04-16 14:31:09 +0000
+Cannot render console from 39.7.58.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/go-58ad6a13cf049c2194ae69fb1f0e3ddddd08d96a708b45ddf7655d55fc79f8e6.png" for 39.7.58.90 at 2016-04-16 14:31:10 +0000
+Cannot render console from 39.7.58.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/omok_white-1ebdbd65c8751576d45bdd27ae27226dd2a56335d6639d4660c1f16b6c863c64.png" for 39.7.58.90 at 2016-04-16 14:31:16 +0000
+Cannot render console from 39.7.58.90! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:31:48 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f0df4731a58716f30ce08473438bbb7d7d3a0de6198af04eb0ab91d4efaf2636.css?body=1" for 183.102.145.173 at 2016-04-16 14:31:48 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:31:48 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:31:48 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:31:48 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:31:48 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:31:48 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 182.209.33.143 at 2016-04-16 14:32:07 +0000
+Cannot render console from 182.209.33.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 26ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f0df4731a58716f30ce08473438bbb7d7d3a0de6198af04eb0ab91d4efaf2636.css?body=1" for 182.209.33.143 at 2016-04-16 14:32:07 +0000
+Cannot render console from 182.209.33.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 182.209.33.143 at 2016-04-16 14:32:07 +0000
+Cannot render console from 182.209.33.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 182.209.33.143 at 2016-04-16 14:32:07 +0000
+Cannot render console from 182.209.33.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 182.209.33.143 at 2016-04-16 14:32:07 +0000
+Cannot render console from 182.209.33.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 182.209.33.143 at 2016-04-16 14:32:07 +0000
+Cannot render console from 182.209.33.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 182.209.33.143 at 2016-04-16 14:32:07 +0000
+Cannot render console from 182.209.33.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/go-58ad6a13cf049c2194ae69fb1f0e3ddddd08d96a708b45ddf7655d55fc79f8e6.png" for 182.209.33.143 at 2016-04-16 14:32:08 +0000
+Cannot render console from 182.209.33.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/omok_white-1ebdbd65c8751576d45bdd27ae27226dd2a56335d6639d4660c1f16b6c863c64.png" for 182.209.33.143 at 2016-04-16 14:32:11 +0000
+Cannot render console from 182.209.33.143! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:36:26 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 28ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:36:27 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-f0df4731a58716f30ce08473438bbb7d7d3a0de6198af04eb0ab91d4efaf2636.css?body=1" for 183.102.145.173 at 2016-04-16 14:36:27 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:36:27 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:36:27 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:36:27 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:36:27 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:36:28 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 23ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f0df4731a58716f30ce08473438bbb7d7d3a0de6198af04eb0ab91d4efaf2636.css?body=1" for 183.102.145.173 at 2016-04-16 14:36:28 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:36:28 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:36:28 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:36:28 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:36:28 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:36:29 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:36:31 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:36:31 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-f0df4731a58716f30ce08473438bbb7d7d3a0de6198af04eb0ab91d4efaf2636.css?body=1" for 183.102.145.173 at 2016-04-16 14:36:31 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:36:31 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:36:31 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:36:31 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:36:31 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 183.102.145.173 at 2016-04-16 14:36:35 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f0df4731a58716f30ce08473438bbb7d7d3a0de6198af04eb0ab91d4efaf2636.css?body=1" for 183.102.145.173 at 2016-04-16 14:36:35 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 183.102.145.173 at 2016-04-16 14:36:35 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 183.102.145.173 at 2016-04-16 14:36:35 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 183.102.145.173 at 2016-04-16 14:36:35 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 183.102.145.173 at 2016-04-16 14:36:35 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 183.102.145.173 at 2016-04-16 14:36:35 +0000
+Cannot render console from 183.102.145.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255

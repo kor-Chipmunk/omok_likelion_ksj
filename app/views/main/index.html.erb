@@ -16,9 +16,11 @@
         <% end %>
       </div>
       <br>
-      턴수 : <span class="turnNum">0</span>&nbsp;&nbsp;
+      턴수 : <span class="turnNum">1</span>&nbsp;&nbsp;
       차례 : <span class="turnWho">흑</span>&nbsp;&nbsp;
       <button onclick="showback();">무르기</button>
+      <br><br>
+      <button onclick="javascript: location.reload();">다시 시작하기</button>
     </div>
   </div>
 </div>
@@ -38,7 +40,7 @@ var FLAG_WAIT = 0;
 var FLAG_START = 1;
 var FLAG_STOP = 2;
 
-var turn = 0;
+var turn = 1;
 var game_flag = FLAG_START;
 
 var OMOK_ROWNUM = 19;
@@ -64,7 +66,7 @@ function upTurn() {
     turn++;
     $('.turnNum').text(turn);
   
-    if (turn % 2 == 0)
+    if ((turn - 1) % 2 == 0)
       $('.turnWho').text('흑')
     else
       $('.turnWho').text('백');
@@ -83,7 +85,7 @@ function downTurn() {
   
     $('.turnNum').text(turn);
   
-    if (turn % 2 == 0)
+    if ((turn - 1) % 2 == 0)
       $('.turnWho').text('흑')
     else
       $('.turnWho').text('백');
@@ -359,7 +361,7 @@ function checkVictory(omokStone) {
       /* 승리 */
       turn = $(omokStone).data('turn');
       alert("승리!");
-      if (turn % 2 === 0) {
+      if ((turn - 1) % 2 === 0) {
         /* 흑 승리! */
         alert("흑이 승리하였습니다!");
       }
@@ -411,7 +413,7 @@ function isOccupied(go_cell) {
 $('.go-cell').on('mouseenter', function() {
   if (game_flag === FLAG_START) {
     if (!$(this).data('occupied')) {
-      if (turn % 2 === 0) {
+      if ((turn - 1) % 2 === 0) {
         $(this).html('<button data-turn=' + turn + ' class="semi_black stone"></button>');
       }
       else {
@@ -435,10 +437,10 @@ $('.go-cell').click(function() {
       
       // 짝수 턴이면, 검은돌
       // 홀수 턴이면, 흰돌
-      if (turn % 2 == 0)
-        $(this).html('<button data-turn=' + turn + ' class="black stone"></button>');
+      if ((turn-1) % 2 == 0)
+        $(this).html('<button data-turn=' + turn + ' class="black stone">' + (turn) + '</button>');
       else
-        $(this).html('<button data-turn=' + turn + ' class="white stone"></button>');
+        $(this).html('<button data-turn=' + turn + ' class="white stone">' + (turn) + '</button>');
       
       if (checkDoubleThree($(this).children('button'))) {
         alert("쌍삼입니다.. 다른 곳을 놓아보세요!");
