@@ -74,6 +74,7 @@ function upTurn() {
   else {
     // 무승부 판정
     alert("무승부 입니다!");
+    gameWait();
   }
 }
 
@@ -401,44 +402,12 @@ function checkVictory(omokStone) {
   }
 }
 
-/* 어려워서 폐지합니다..
+/*
 function checkDoubleThree(omokStone) {
-  var i, cnt = 0, cnt2 = 0, cnt3 = 0, cnt4 = 0, cnt5 = 0;
+  // 케이스 4가지
+  // 이미지 참고 : http://www.ilbe.com/files/attach/new/20140411/377678/2519363771/3312390745/b2ee34980d90a0df8aff8fbb30a0a587.png
   
-  for (i = DIRECTION_NORTH; i <= DIRECTION_NORTHWEST; i++) {
-    // 1. 놓았을 떄, 2개 2개 => 3개 3개
-    if (getCountForDirection(omokStone, i) === 2) {
-      cnt++;
-    } // 2. 사각형 안에 놓았을 떄, 1개 1개 1개 1개 => 3개 3개
-    else if (getCountForDirection(omokStone, i) === 1) {
-      cnt2++;
-    }
-    else if (getCountForDirectionWithoutOnePoint(omokStone, i)
-        === 2) {
-      cnt3++;
-    }
-    else if (getCountForDirection(omokStone, i) === 1 ||
-    getCountForDirection(omokStone, i) === 2) {
-      cnt4++;
-    }
-    
-    if (cnt === 2) {
-      // 쌍삼 걸렸다!
-      return true;
-    }
-    if (cnt2 === 4) {
-       return true;
-    }
-    if (cnt3 === 2) {
-       return true;
-    }
-    if (cnt4 === 2) {
-       return true;
-    }
-    if (cnt5 === 4) {
-       return true;
-    }
-  }
+  
   
   return false;
 }
